@@ -134,8 +134,7 @@ export class JobService {
       }
     };
 
-    await task();
-    // const intervalId = setInterval(task, 60000);
+    const intervalId = setInterval(task, 600000);
   }
 
 
